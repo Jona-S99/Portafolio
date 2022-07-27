@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cursos on Jonatan Salazar</title>
+    <link>http://example.org/cursos/</link>
+    <description>Recent content in Cursos on Jonatan Salazar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/cursos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cursos realizados a la fecha</title>
+      <link>http://example.org/cursos/realizados/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/cursos/realizados/</guid>
+      <description>Lista Curso Institución Año Fundamentos de R Platzi 2021 Estadística Inferencial con R Platzi 2021 Primeros Pasos con R Pontificia Universidad Católica de Chile 2021 Modelamiento de Ecuaciones Estructurales ELSOC-COES 2022 </description>
+    </item>
+    
+  </channel>
+</rss>
