@@ -1,0 +1,201 @@
+theme: "hugo-profile"
+baseURL: http://example.org/
+languageCode: en-us
+title: Jonatan Salazar
+
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: Cursos
+      name: Cursos
+      title: Blog posts
+      url: /cursos
+      weight: 1
+
+
+
+# titulo y logo
+params:
+  title: "Portafolio"
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/logo3.png"
+
+  useBootstrapCDN: false
+
+  theme:
+    disableThemeToggle: false
+    # defaultTheme: "light" # dark
+
+
+# Hero
+  hero:
+    enable: true
+    intro: "¡Hola! Mi nombre es"
+    title: "Jonatan Salazar."
+    subtitle: "Sociólogo"
+    content: "Me especializo en metodología cuantitativa, con énfasis en la aplicación de técnicas de Machine Learning y DataViz para el análisis de la realidad social. Si quieres saber más de mí, te invito a revisar mi CV o continuar haciendo scroll."
+    image: /images/data-analytics.png
+    button:
+      enable: true
+      name: "Curriculum Vitae"
+      url: "https://github.com/Jona-S99/CV/raw/main/CV_JONATAN_SALAZAR.pdf"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/Jona-S99
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/jonatan-salazar-silva-266b54203/
+          
+
+
+
+# Sobre mí
+  about:
+    enable: true
+    title: "Sobre mí"
+    image: "/images/Jonatan_Salazar_img.jpg"
+    content: |-
+      Hola, mi nombre es Jonatan y soy sociólogo por la Universidad Diego Portales.
+      
+      Mis intereses se enmarcan en la metodología cuantitativa, la estadística y las ciencias sociales computacionales. Lo anterior me ha llevado a explorar nuevas tecnologías, adentrándome a los lenguajes de programación, específicamente a R y su manejo en RStudio, con intención de expandir mis conocimientos a Python.
+      
+      Me he desempeñado como asistente de investigación, ayudante de cátedra, tesista Fondecyt y ahora último como analista de datos. Actualmente me encuentro desarrollando una página web que recopila técnicas estadísticas utilizando R.
+      
+      Te dejo mi correo de contacto: salazarjonatan.soc@gmail.com
+
+    skills:
+      enable: true
+      title: "Estas son algunas de las tecnologías y herramientas que he utilizado recientemente:"
+      items:
+        - "Machine learning"
+        - "Estadística"
+        - "R"
+        - "SPSS"
+        - "Markdown"
+        - "Git"
+        - "Github"
+        - "Microsoft Office"
+
+# Experiencia
+  experience:
+    enable: true
+    items:
+      - job: "Asistente de Investigación: proyecto Fondecyt No. 11180099 "
+        company: "Laboratorio de Transformaciones Sociales"
+        companyUrl: "https://transformacionessociales.udp.cl/"
+        date: "2019"
+        featuredLink:
+          enable: true
+          name: "Ver proyecto"
+          url: "https://transformacionessociales.udp.cl/?publicaciones=soberania-alimentaria-los-alimentos-en-el-proyecto-de-la-autodeterminacion-popular"
+        content: "Labores: participación activa en las instancias de discusión teórica y metodológica que sustentan el proyecto. Contactar organizaciones afines, realizar entrevistas y sistematizar información."
+      
+      - job: "Ayudante de cátedra Procesos Sociales II: Chile"
+        company: "Universidad Diego Portales"
+        date: "mar 2020 - jul 2020"
+        content: "Ayudante de cátedra para el profesor Eduardo Godoy Sepúlveda. Guiar a alumnos en un pensamiento crítico sobre los procesos sociales, históricos y políticos en América Latina revisando material bibliográfico y preparando ayudantías."
+
+      - job: "Ayudante de cátedra Políticas Públicas"
+        company: "Universidad Diego Portales"
+        date: "ago 2020 - dic 2020"
+        content: "Ayudante de cátedra para la profesora Dra. María Angélica Pavez. Guiar a alumnos en el análisis aplicado de problemas sociales y políticas públicas desde diversos enfoques. Incluye ayudantías, revisión de pruebas y minutas, asistencia a clases y preparación de material."
+
+      - job: "Ayudante de cátedra Análisis Avanzado de Datos I"
+        company: "Universidad Diego Portales"
+        date: "ago 2021 - dic 2021"
+        content: "Ayudante de cátedra para la profesora Mg. Berta Teitelboim Grinblatt. Guiar alumnos en el análisis y el trabajo con bases de datos, mediante la aplicación de modelos y técnicas estadísticas. Incluye ayudantías, revisión de pruebas, asistencia a clases y preparación de material."
+
+      - job: "Tesista Fondecyt No. 11181223"
+        company: "Nuestros Impuestos"
+        date: "mar 2021 - jun 2022"
+        featuredLink:
+          enable: true
+          name: "Página Fondecyt"
+          url: "https://nuestrosimpuestos.cl/"
+        content: "Investigador en el equipo de 'Nuestros Impuestos'. Bajo este cargo desarrollé mi tesis de pregrado titulada 'Tributación en Chile: percepciones y preferencias de la Clase Media y Baja sobre los impuestos'. En ella se empleó metodología mixta de carácter secuencial, analizando una encuesta y realizando entrevistas."
+        
+      - job: "Ayudante de cátedra Estadística II"
+        company: "Universidad Diego Portales"
+        date: "mar 2022 - jul 2022"
+        content: "Ayudante de cátedra para la profesora Mg. Berta Teitelboim Grinblatt. Guiar alumnos en la familiarización con la estadística inferencial mediante la aplicación de pruebas estadísticas. Incluye ayudantías, revisión de pruebas, asistencia a clases y preparación de material."
+
+      - job: "Práctica Profesional - Analista de Datos"
+        company: "Datavoz Statcom"
+        date: "mar 2022 - jul 2022"
+        content: "Durante mi práctica profesional estuve a cargo del 'Proyecto Bookdown D&A'. La generación de tablas y gráficos para el análisis, como también la automatización de reportes estadísticos y procesos internos"
+
+# Educacion
+  education:
+    enable: true
+    # index: true
+    items:
+      - title: "Sociólogo"
+        school:
+          name: "Universidad Diego Portales. Santiago, Chile"
+        date: "2018 - 2022"
+      - title: "Diploma de Honor en Historia de las Ideas Políticas en Chile"
+        school:
+          name: "Universidad Diego Portales. Santiago, Chile."
+        date: "2020"
+        
+# projects
+  projects:
+    enable: true
+    items:
+      - title: "Soberanía alimentaria: los alimentos en el proyecto de la autodeterminación popular"
+        content: "Investigación cualitativa enmarcada en el proyecto Fondecyt No 11180099 bajo la dirección del académico Martín Arboleda. En ella se rescató la perspectiva de diversas organizaciones de base sobre los problemas que se presentan los sistemas agroalimentarios del país y las posibles soluciones a tales problemáticas.    "
+        image: /images/projects/sob_al.png
+        featured:
+          name: Publicación
+          link: https://transformacionessociales.udp.cl/?publicaciones=soberania-alimentaria-los-alimentos-en-el-proyecto-de-la-autodeterminacion-popular
+        badges:
+           - "Research"
+           - "Investigación"
+
+
+      - title: "Bookdown D&A"
+        content: Libro electrónico que recopila y almacena diversas herramientas para el manejo de datos en R, junto con automatizaciones realizadas para Datavoz. Proyecto enmarcado en mi práctica profesional para obtener el títutlo de Sociólogo por la Universidad Diego Portales.
+        image: /images/projects/libro.png
+        featured:
+          name: Bookdown
+          link: https://jona-s99.github.io/Bookdown/
+        badges:
+           - "R"
+           - "Rmarkdown"
+           - "Machine Learning"
+        links:
+          - icon: fab fa-github
+          - url: https://github.com/Jona-S99/Bookdown
+        
+      - title: "Análisis R (en construcción)"
+        content: |- 
+          Este proyecto pretende reunir múltiples técnicas de análisis utilizando R, pasando desde funciones para el manejo de bases de datos, la explicación de las técnicas estadísticas y la visualización de datos.
+          
+          El sitio se contruye mediante Hugo y la librería Blogdown.
+          
+        image: /images/projects/ARnalisis.png
+        badges:
+           - "R"
+           - "Machile Learning"
+           - "Blogdown"
+           - "Hugo"
+       
+# Contacto
+  contact:
+    enable: true
+    content: No dudes en escribirme, mi bandeja de entrada siempre está disponible.
+    email: salazarjonatan.soc@gmail.com
+    btnName: Mail
+
+  footer:
+    recentPosts: false
+    socialNetworks:
+      github: https://github.com/Jona-S99
+      linkedin: https://www.linkedin.com/in/jonatan-salazar-silva-266b54203/
+      
