@@ -182,7 +182,7 @@ params:
         image: /images/projects/ARnalisis.png
         badges:
            - "R"
-           - "Machile Learning"
+           - "Machine Learning"
            - "Blogdown"
            - "Hugo"
        
