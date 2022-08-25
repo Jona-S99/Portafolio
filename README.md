@@ -3,7 +3,7 @@
 Repositorio para crear mi portafolio virtual. 
 En él podrán encontrar mi perfil profesional, mis CV, mis proyectos, entre otras informaciones.
 
-**LINK:** [](jonatansalazar.netlify.app)
+**Portafolio:** [clic aquí](jonatansalazar.netlify.app)
 
 ### Herramientas
 
