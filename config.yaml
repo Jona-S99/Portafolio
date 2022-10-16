@@ -44,7 +44,7 @@ params:
     button:
       enable: true
       name: "Curriculum Vitae"
-      url: "https://github.com/Jona-S99/CV/raw/main/CV_JONATAN_SALAZAR.pdf"
+      url: "https://github.com/Jona-S99/CV/blob/main/CV_JONATAN_SALAZAR.pdf"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
